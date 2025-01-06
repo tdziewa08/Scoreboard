@@ -1,0 +1,71 @@
+
+body {
+    background-color: rgb(35, 92, 92);
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
+
+.scoreboard-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.panel {
+    height: 385px;
+    width: 575px;
+}
+
+.panel div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 220px;
+    width: 290px;
+    margin: 10px auto;
+    background-color: black;
+    color: red;
+    font-family: "Orbitron", "sans-serif";
+    font-size: 100px;
+    border-radius: .3rem;
+}
+
+.panel h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 70px;
+    margin-bottom: 4px;
+}
+
+.panel > button {
+    height: 82px;
+    width: 92px;
+    margin: 14px 1px;
+    color: white;
+    background-color: inherit;
+    border: .5px solid white;
+    border-radius: .3rem;
+}
+
+.panel button:hover {
+    cursor: pointer;
+    opacity: .75;
+}
+
+#newGame-btn {
+    height: 50px;
+    width: 175px;
+    margin-top: 5px;
+    background-color: inherit;
+    font-size: 20px;
+    color: white;
+    text-shadow: 1 1 0 black;
+    cursor: pointer;
+    border: .5px solid white;
+    border-radius: .3rem;
+}
+
+#newGame-btn:hover {
+    background-color: rgb(41, 180, 41);
+    opacity: .75;
+    border: none;
+}

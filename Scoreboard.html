@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Scoreboard</title>
+    <link rel="stylesheet" href="./scoreboard.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Orbitron:wght@400..900&family=Special+Elite&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Orbitron:wght@400..900&family=Special+Elite&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="scoreboard-container">
+
+        <div class="panel">
+            <h1>HOME</h1>
+            <div id="home">10</div>
+            <button onclick="addOneHome()">+1</button>
+            <button onclick="addTwoHome()">+2</button>
+            <button onclick="addThreeHome()">+3</button>
+        </div>
+
+        <div class="panel">
+            <h1>AWAY</h1>
+            <div id="away">10</div>
+            <button onclick="addOneAway()">+1</button>
+            <button onclick="addTwoAway()">+2</button>
+            <button onclick="addThreeAway()">+3</button>
+        </div>
+
+    </div>
+
+    <button id="newGame-btn" onclick="newGame()">NEW GAME</button>
+
+    <script src="scoreboard.js"></script>
+
+</body>
+
+
+
+</html>
